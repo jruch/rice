@@ -58,7 +58,7 @@
                         <configuration>
                             <tasks>
                                 <echo>Extracting Help Files</echo>
-                                <unzip src="${basedir}/RiceHelp.zip" dest="${project.build.directory}/help/kr/static/help/" />
+                                <unzip src="${basedir}/RiceHelp.zip" dest="${basedir}/" />
                             </tasks>
                         </configuration>
                         <goals>
